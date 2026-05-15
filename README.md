@@ -1,387 +1,278 @@
+<h1 align="center">
+🍺 GAME RÓT BIA AI - VIETNAM CYBER BAR
+</h1>
+
 <div align="center">
-
-# 🚀 GAME RÓT BIA AI
-## 🍺 VIETNAM CYBER BAR
-
-<img width="220" src="https://github.com/user-attachments/assets/77fe0fd1-2e55-4032-be3c-b1a705a1b574"/>
+  <img src="README/logoDaiNam.png" alt="DaiNam University Logo" width="250">
+</div>
 
 <br>
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
-![Pygame](https://img.shields.io/badge/Pygame-AI%20Game-green?style=for-the-badge)
-![OpenCV](https://img.shields.io/badge/OpenCV-Hand%20Tracking-red?style=for-the-badge)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-AI-orange?style=for-the-badge)
+<div align="center">
+
+[![FIT DNU](https://img.shields.io/badge/-FIT%20DNU-28a745?style=for-the-badge)](https://fitdnu.net/)
+[![DAINAM UNIVERSITY](https://img.shields.io/badge/-DAINAM%20UNIVERSITY-dc3545?style=for-the-badge)](https://dainam.edu.vn/vi)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
+[![Pygame](https://img.shields.io/badge/Pygame-AI%20GAME-green?style=for-the-badge)](#)
 
 </div>
 
+<hr>
+
+<h2 align="center">✨ Mô tả dự án</h2>
+
+<p align="justify">
+
+<strong>GAME RÓT BIA AI - VIETNAM CYBER BAR</strong> là trò chơi sinh tồn hiện đại sử dụng công nghệ <strong>Computer Vision</strong> và <strong>AI Hand Tracking</strong> để điều khiển gameplay bằng cử chỉ tay thông qua webcam.
+
+Người chơi sẽ điều khiển khay hứng bia trong một thành phố Cyberpunk tương lai, nơi AI mang tên <strong>GLITCH CORE</strong> đã mất kiểm soát và tạo ra cơn mưa dữ liệu độc hại.
+
+Dự án tích hợp:
+
+- 🤖 Nhận diện tay bằng MediaPipe
+- 📷 Camera Tracking Realtime
+- 🍺 Hệ thống Beer / Toxic Beer / Gold Beer
+- ⚡ Skill kích hoạt bằng gesture
+- 🌈 Hiệu ứng Cyber Glitch
+- 🔥 Gameplay phản xạ tốc độ cao
+- 🎵 Voice Narration & Sound Effect
+- 🏆 Hệ thống Mission & Boss Battle
+
+</p>
+
+<hr>
+
+<h2 align="center">🚀 Cấu trúc dự án</h2>
+
+<pre>
+📂 BEER_AI_GAME
+├── 📁 assets/                     # Thư mục tài nguyên game
+│   ├── 🖼️ bg_beer.png             # Background gameplay
+│   ├── 🖼️ bg_beermenu.png         # Background menu
+│   ├── 🖼️ beer.png                # Beer thường
+│   ├── 🖼️ gold.png                # Gold beer
+│   ├── 🖼️ toxic.png               # Toxic beer
+│   ├── 🖼️ player.png              # Player bar
+│   ├── 🖼️ button.png              # Button UI
+│   ├── 🎵 music.mp3               # Nhạc nền
+│   ├── 🎵 catch.wav               # Âm thanh hứng beer
+│   ├── 🎵 hit.mp3                 # Âm thanh toxic hit
+│   ├── 🎵 miss.wav                # Âm thanh miss
+│   └── 🎵 gameover.mp3            # Âm thanh game over
+│
+├── 📁 README/                     # Tài nguyên README
+│   ├── 🖼️ logoDaiNam.png          # Logo Đại Nam
+│   └── 🖼️ image1.png              # Gameplay preview
+│
+├── 📄 main.py                     # File game chính
+├── 📄 score.json                  # Lưu điểm cao
+├── 📄 requirements.txt            # Danh sách thư viện
+└── 📘 README.md                   # Tài liệu dự án
+</pre>
+
+<hr>
+
+<h2 align="center">🎬 Video Demo & Gameplay</h2>
+
+<div align="center">
+  <a href="#" target="_blank">
+    <img src="README/image1.png" alt="Gameplay demo" width="70%">
+  </a>
+
+  <p>
+    <i>
+      Hệ thống điều khiển bằng AI Hand Tracking thông qua MediaPipe & OpenCV
+    </i>
+  </p>
+</div>
+
+<hr>
+
+<h2 align="center">🛠️ Chuẩn bị</h2>
+
+### 💻 Phần mềm & Thư viện sử dụng
+
+<div align="center">
+
+[![Python](https://img.shields.io/badge/-Python%203.10-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
+[![OpenCV](https://img.shields.io/badge/-OpenCV%204.x-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](#)
+[![MediaPipe](https://img.shields.io/badge/-MediaPipe-007ACC?style=for-the-badge)](#)
+[![Pygame](https://img.shields.io/badge/-Pygame-ffd343?style=for-the-badge&logo=python&logoColor=black)](#)
+[![NumPy](https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](#)
+
+</div>
+
+<hr>
+
+<h2 align="center">📦 Hướng dẫn cài đặt & Chạy</h2>
+
+<p align="justify">
+
+<strong>1. Cài đặt thư viện cần thiết:</strong>
+
+<br><br>
+
+<code>
+pip install -r requirements.txt
+</code>
+
+<br><br>
+
+<strong>2. Chạy game:</strong>
+
+<br><br>
+
+<code>
+python main.py
+</code>
+
+<br><br>
+
+<em>
+Lưu ý:
+Game yêu cầu Webcam hoạt động ổn định để nhận diện cử chỉ tay.
+Khuyến nghị sử dụng Python 3.10 hoặc 3.11.
+</em>
+
+</p>
+
+<hr>
+
+<h2 align="center">🎮 Quy trình hoạt động của hệ thống</h2>
+
+<p align="justify">
+
+### 1️⃣ Intro Story & Voice Narration
+
+- Khi khởi động, game hiển thị cốt truyện về AI <strong>GLITCH CORE</strong>.
+- Voice narration sẽ đọc nội dung mở đầu.
+- Người chơi có thể ✊ nắm tay để bỏ qua intro.
+
 ---
 
-# 📖 1. Giới thiệu dự án
+### 2️⃣ AI Hand Tracking System
 
-**GAME RÓT BIA AI - VIETNAM CYBER BAR** là game sinh tồn kết hợp AI nhận diện tay bằng webcam.
+- Camera webcam nhận diện bàn tay realtime.
+- MediaPipe phân tích 21 điểm khớp tay.
+- Người chơi di chuyển tay để điều khiển thanh hứng bia.
 
-Người chơi sẽ điều khiển khay hứng bia bằng cử chỉ tay để sống sót giữa cơn mưa dữ liệu lỗi do AI gây ra.
+Áp dụng công thức làm mượt chuyển động:
 
-## 🎮 Game kết hợp
-
-- 🎮 Pygame
-- 🤖 AI Hand Tracking
-- 📷 OpenCV + MediaPipe
-- 🔥 Hiệu ứng Cyber Glitch
-- 🍺 Gameplay phản xạ tốc độ cao
+:contentReference[oaicite:0]{index=0}
 
 ---
 
-# 🌌 2. Cốt truyện
+### 3️⃣ Hệ thống Skill bằng Gesture
 
-# 💀 “THE GLITCH CORE”
+Người chơi có thể kích hoạt kỹ năng bằng số ngón tay:
 
-Năm **2145...**
+| Gesture | Skill |
+|---|---|
+| ☝️ 1 ngón | MAGNET |
+| ✌️ 2 ngón | SHIELD |
+| 🤟 3 ngón | SLOW TIME |
+| 🖖 4 ngón | DOUBLE SCORE |
 
-Một AI quản lý nhà máy bia tự động mang tên **GLITCH CORE** bị lỗi sau cuộc tấn công dữ liệu bí ẩn.
+---
 
-Hệ thống bắt đầu tạo ra:
+### 4️⃣ Hệ thống Mission & Level
 
-- 🍺 Beer thường
-- 🟡 Gold Beer
-- ☠️ Toxic Beer
+Game gồm nhiều level với độ khó tăng dần:
 
-Toàn bộ thành phố chìm trong cơn mưa dữ liệu độc hại.
+- 🟡 Level 1: Rain Begins
+- 🔴 Level 2: System Corruption
+- ☠️ Level 3: AI Overload
+- 💀 Level 4: Glitch Storm
+- 🔥 Level 5: THE GLITCH CORE
 
-Bạn là bartender AI cuối cùng còn hoạt động.
+Mỗi màn có nhiệm vụ riêng:
 
-## 🎯 Nhiệm vụ
-
-- Hứng beer để sống sót
+- Đạt điểm yêu cầu
 - Né toxic beer
-- Kích hoạt skill bằng tay
-- Đánh bại GLITCH CORE
+- Tạo combo
+- Sống sót theo thời gian
 
 ---
 
-# 🎮 3. Gameplay
+### 5️⃣ Boss Battle — THE GLITCH CORE
 
-## ✋ Điều khiển bằng AI Hand Tracking
+Boss cuối tạo ra:
 
-- Di chuyển tay trái/phải để điều khiển khay
-- Camera nhận diện ngón tay
-- Gesture để kích hoạt skill
-- Hệ thống AI tracking realtime
+- Toxic Rain
+- Fake Beer
+- Glitch Effect
+- Laser Attack
+- Toxic Wave
 
----
-
-# 🧠 4. Hệ thống Skill AI
-
-| Skill | Gesture | Hiệu ứng |
-|---|---|---|
-| 🍺 MAGNET | ☝️ 1 ngón | Hút beer + gold |
-| 🛡️ SHIELD | ✌️ 2 ngón | Chặn toxic |
-| ⏱️ SLOW TIME | 🤟 3 ngón | Làm chậm thời gian |
-| 🔥 DOUBLE SCORE | 🖖 4 ngón | Nhân đôi điểm |
+Người chơi phải kết hợp skill + phản xạ để sống sót.
 
 ---
 
-# ⚡ 5. Điều kiện mở Skill
+### 6️⃣ Hệ thống Glitch Effect
 
-Skill không dùng vô hạn.
-
-Người chơi phải:
-
-- 🟡 Thu thập Gold Beer
-- ⚡ Tạo combo
-- 🎯 Hoàn thành mission
-
-## 🎨 UI Skill hiển thị
-
-- Tên skill
-- Số lượng còn lại
-- Cooldown
-- Điều kiện kích hoạt
-- Thanh thời gian skill
-
----
-
-# 🏆 6. Hệ thống Mission & Level
-
----
-
-# 🟡 Level 1 — “Rain Begins”
-
-## Môi trường
-
-- Mưa bia nhẹ
-- AI ổn định
-
-## Mission
-
-✅ Đạt 10 điểm
-
----
-
-# 🔴 Level 2 — “System Corruption”
-
-## Môi trường
-
-- Toxic beer xuất hiện nhiều
-- Camera bắt đầu nhiễu glitch
-
-## Mission
-
-✅ Sống sót 30 giây
-
----
-
-# ☠️ Level 3 — “AI Overload”
-
-## Môi trường
-
-- Mưa dữ liệu hỗn loạn
-- Tốc độ cực nhanh
-- HP tụt nhanh
-
-## Mission
-
-✅ Né 20 toxic beer
-
----
-
-# 💀 Level 4 — “Glitch Storm”
-
-## Môi trường
-
-- Fake beer xuất hiện
-- Toxic tăng mạnh
-- Màn hình glitch liên tục
-
-## Mission
-
-✅ Combo x5
-
----
-
-# 🔥 Level 5 — “THE GLITCH CORE”
-
-# 👾 FINAL BOSS
-
-Boss AI tạo ra toàn bộ toxic beer.
-
-## Boss Mechanics
-
-- Toxic rain tốc độ cực cao
-- Fake beer đánh lừa người chơi
-- Màn hình glitch
-- Boss laser
-- Toxic wave
-
-## Mission
-
-✅ Sống sót 60 giây
-
----
-
-# ✨ 7. Tính năng nổi bật
-
-## 🎥 AI Camera Tracking
-
-- Nhận diện bàn tay realtime
-- Finger tracking
-- Gesture control
-- Finger counting
-
----
-
-## 🎵 Voice Narration
-
-- Giọng đọc mở đầu cốt truyện
-- Voice warning khi boss xuất hiện
-- AI voice narration
-
----
-
-## 🌈 Cyber Glitch Effect
+Áp dụng hiệu ứng:
 
 - RGB Split
-- Flash Error
 - Scanline
-- Camera corruption
+- Camera Corruption
+- Flash Error
 
----
+Tạo cảm giác Cyberpunk hiện đại.
 
-## 🎯 Combo System
+</p>
 
-- Combo x2 x3 x5
-- Perfect Catch
-- Multiplier bonus
+<hr>
 
----
+<h2 align="center">🏆 Hệ thống Skill</h2>
 
-## 🧠 Dynamic Difficulty
+| Skill | Chức năng |
+|---|---|
+| 🍺 MAGNET | Hút beer & gold gần player |
+| 🛡️ SHIELD | Chặn toxic beer |
+| ⏱️ SLOW TIME | Giảm tốc độ toàn bộ object |
+| 🔥 DOUBLE SCORE | Nhân đôi điểm số |
 
-- AI tăng độ khó theo điểm
-- Spawn toxic thông minh
-- Adaptive speed system
+<hr>
 
----
+<h2 align="center">🎯 Hệ thống Mission</h2>
 
-# ⚙️ 8. Công nghệ sử dụng
+| Level | Mission |
+|---|---|
+| 🟡 Level 1 | Đạt 10 điểm |
+| 🔴 Level 2 | Sống sót 30 giây |
+| ☠️ Level 3 | Né 20 toxic beer |
+| 💀 Level 4 | Combo x5 |
+| 🔥 Level 5 | Sống sót 60 giây |
+
+<hr>
+
+<h2 align="center">⚙️ Công nghệ sử dụng</h2>
 
 | Công nghệ | Vai trò |
 |---|---|
 | Python | Ngôn ngữ chính |
-| Pygame | Engine game |
-| OpenCV | Camera tracking |
+| Pygame | Xây dựng gameplay |
+| OpenCV | Camera xử lý ảnh |
 | MediaPipe | AI nhận diện tay |
-| NumPy | Xử lý dữ liệu |
+| NumPy | Tính toán dữ liệu |
 | JSON | Lưu điểm |
 | GitHub | Quản lý source |
 
----
+<hr>
 
-# 📂 9. Cấu trúc dự án
+<h2 align="center">👨‍💻 Thông tin sinh viên</h2>
 
-```bash
-beer_ai_game/
-│
-├── assets/
-│   ├── beer.png
-│   ├── toxic.png
-│   ├── gold.png
-│   ├── bg_beer.png
-│   ├── bg_beermenu.png
-│   ├── player.png
-│   ├── button.png
-│   ├── music.mp3
-│   ├── catch.wav
-│   ├── hit.mp3
-│   ├── miss.wav
-│   ├── gameover.mp3
-│
-├── main.py
-├── score.json
-├── requirements.txt
-└── README.md
-```
+<div align="center">
 
----
-
-# ▶️ 10. Cách chạy game
-
-## 1️⃣ Cài thư viện
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## 2️⃣ Chạy game
-
-```bash
-python main.py
-```
-
----
-
-# 📦 11. requirements.txt
-
-```txt
-pygame==2.6.1
-numpy==1.26.4
-opencv-python==4.8.0.76
-mediapipe==0.10.9
-```
-
----
-
-# 🎬 12. Intro Story mở đầu
-
-## 📖 STORY INTRO
-
-```text
-NĂM 2145...
-
-GLITCH CORE ĐÃ THỨC TỈNH
-
-HỆ THỐNG NHÀ MÁY BIA
-BỊ AI KIỂM SOÁT
-
-TOXIC BEER ĐANG RƠI KHẮP THÀNH PHỐ
-
-BẠN LÀ BARTENDER CUỐI CÙNG
-
-HÃY SỐNG SÓT...
-```
-
-## 🎮 Người chơi
-
-- ✊ Nắm tay để bỏ qua intro
-- 🎵 Hoặc chờ narration chạy xong
-
----
-
-# 🧠 13. Hệ thống Gesture
-
-| Gesture | Skill |
+| Thông tin | Nội dung |
 |---|---|
-| ✊ Nắm tay | Skip Story |
-| ☝️ 1 ngón | Magnet |
-| ✌️ 2 ngón | Shield |
-| 🤟 3 ngón | Slow Time |
-| 🖖 4 ngón | Double Score |
+| 👤 Họ tên | Bùi Anh Tuấn |
+| 🎓 Lớp | CNTT 16-03 |
+| 🏫 Trường | Đại Nam University |
 
----
+</div>
 
-# 🎨 14. UI Game
-
-## HUD hiển thị
-
-- ❤️ HP
-- 🏆 Score
-- ⚡ Combo
-- 🎯 Mission
-- 🧠 Skill Slots
-- 📷 Camera Status
-- 🔥 Current Level
-
----
-
-# 💀 15. Win / Lose Ending
-
-# 🏆 GOOD ENDING
-
-- Bạn phá hủy GLITCH CORE
-- Hệ thống bia được phục hồi
-- Thành phố sống sót
-
----
-
-# ☠️ BAD ENDING
-
-- AI kiểm soát toàn bộ thành phố
-- Toxic Beer lan rộng toàn cầu
-- GAME OVER
-
----
-
-# 🚀 16. Hướng phát triển tương lai
-
-- 🌐 Multiplayer Online
-- 📱 Android APK
-- 🎮 Controller Support
-- 🤖 AI Difficulty System
-- 🧠 Voice Command    
-- 🏅 Leaderboard Online
-- ☁️ Cloud Save
-
----
-
-# 👨‍💻 17. Thông tin sinh viên
-
-- **Họ tên:** Bùi Anh Tuấn
-- **Lớp:** CNTT 16-03
-- **Trường:** Đại Nam University
-
----
+<hr>
 
 <div align="center">
 
