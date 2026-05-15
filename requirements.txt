@@ -1,0 +1,58 @@
+pygame==2.6.1
+numpy==1.26.4
+opencv-python==4.8.0.76
+mediapipe==0.10.9
+thêm cho 3 màn chơi Level 1: “Rain Begins”
+Mưa bia nhẹ
+AI ổn định
+🟡 Level 2: “System Corruption”
+Xuất hiện nhiều toxic beer
+Camera bắt đầu nhiễu
+🔴 Level 3: “AI Overload”
+Mưa dữ liệu hỗn loạn
+Tốc độ tăng cao
+HP tụt nhanh
+💀 Boss cuối (ý tưởng nâng cấp)
+thêm 1 đoạn mở đầu để giới thiệu cốt chuyện nắm tay để bỏ qua
+“THE GLITCH CORE”
+
+Một AI lỗi tạo ra toàn bộ toxic beer
+Xuất hiện mưa cực nhanh + fake beer
+Người chơi phải đạt combo để sống sót
+voice narration (giọng đọc story)
+mission system (quest) nghiệm vụ ngẫu nhiên mỗi lv ví dụ Màn 1: đạt 10 điểm
+Màn 2: sống 30 giây
+thêm boss + hiệu ứng glitch thật
+🏆 
+thêm win/lose + ending storyMàn 3: tránh 20 toxic
+Màn 4: combo x5
+Màn 5: sống sót 60 giây
+HỆ THỐNG SKILL
+1. Skill: MAGNET (Hút bia)
+🍺 Tự động hút beer + gold gần player
+☠️ không hút toxic (hoặc hút nhưng trừ điểm)
+Thời gian: 5–7 giây
+
+
+
+🛡️ 2. Skill: SHIELD (Khiên chống độc)
+Chặn 1–3 lần dính toxic
+Không mất HP trong thời gian skill
+
+
+
+⏱️ 3. Skill: SLOW TIME (Chậm thời gian)
+Tất cả drop chậm lại 50%
+Giúp phản xạ dễ hơn
+
+
+
+🔥 4. Skill: DOUBLE SCORE
+Mỗi beer + gold x2 điểm
+toxic vẫn trừ HP bình thường
+
+nhận diện mỗi chiêu bằng ngón tay 
+chiêu 1 dơ 1 ngón chiêu 2 dơ 2 ngón
+tạo điều kiện thu thập  và thời gian triển khai 
+ui skill hiện dưới cùng màn hình và số lượng còn skill có thể tích lũy
+thêm điều kiện skill dưới màn hình Camera
