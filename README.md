@@ -266,8 +266,8 @@ Tạo cảm giác Cyberpunk hiện đại.
 
 | Thông tin | Nội dung |
 |---|---|
-| 👤 Họ tên | Bùi Anh Tuấn |
-| 🎓 Lớp | CNTT 16-03 |
+| 👤 Họ tên | Bùi Duy Anh |
+| 🎓 Lớp | CNTT 16-02 |
 | 🏫 Trường | Đại Nam University |
 
 </div>
